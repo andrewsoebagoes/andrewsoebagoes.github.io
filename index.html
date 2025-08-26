@@ -1,360 +1,493 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Andrew Soebagoes</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Andrew Soebagoes</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/icon/code.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/icon/code.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: MyResume - v4.9.2
   * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+    <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex flex-column justify-content-center">
+      <nav id="navbar" class="navbar nav-menu">
+        <ul>
+          <li>
+            <a href="#hero" class="nav-link scrollto active"
+              ><i class="bx bx-home"></i> <span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#about" class="nav-link scrollto"
+              ><i class="bx bx-user"></i> <span>About</span></a
+            >
+          </li>
+          <li>
+            <a href="#skills" class="nav-link scrollto"
+              ><i class="bx bx-code-alt"></i> <span>Skills</span></a
+            >
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link scrollto"
+              ><i class="bx bx-book-content"></i> <span>Portfolio</span></a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="nav-link scrollto"
+              ><i class="bx bx-envelope"></i> <span>Contact</span></a
+            >
+          </li>
+          <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
+        </ul>
+      </nav>
+      <!-- .nav-menu -->
+    </header>
+    <!-- End Header -->
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
-
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-code-alt"></i> <span>Skills</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
-      </ul>
-    </nav><!-- .nav-menu -->
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Andrew Soebagoes</h1>
-      <p>I'm <span class="typed" data-typed-items="FullStack Web Developer, Graphic Designer"></span></p>
-      <div class="social-links">
-        <a href="https://twitter.com/andrew_bagoes" target="_blank"  class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="https://www.facebook.com/ndrew.bagoes" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/andrewsoebagoes" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.github.com/andrewsoebagoes" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-        <a href="https://www.linkedin.com/in/andrew-soebagoes-75a6a8278/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://www.youtube.com/@ProgrammerHandal" target="_blank" class="youtube"><i class="bx bxl-youtube"></i></a>
-    
-      </div>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>About me</h2>
-          <!-- <p>
-            I'm a passionate junior web developer dedicated to building engaging and useful web experiences. With basic knowledge in web development and a great desire to learn, I am ready to create innovative and relevant solutions.
-          </p> -->
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center">
+      <div class="container" data-aos="zoom-in" data-aos-delay="100">
+        <h1>Andrew Soebagoes</h1>
+        <p>
+          Saya
+          <span
+            class="typed"
+            data-typed-items="FullStack Web Developer, Web Programmer"
+          ></span>
+        </p>
+        <div class="social-links">
+          <a
+            href="https://twitter.com/andrew_bagoes"
+            target="_blank"
+            class="twitter"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/ndrew.bagoes"
+            target="_blank"
+            class="facebook"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/andrewsoebagoes"
+            target="_blank"
+            class="instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://www.github.com/andrewsoebagoes"
+            target="_blank"
+            class="github"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/andrew-soebagoes-75a6a8278/"
+            target="_blank"
+            class="linkedin"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/@ProgrammerHandal"
+            target="_blank"
+            class="youtube"
+            ><i class="bx bxl-youtube"></i
+          ></a>
+          <a href="https://wa.me/6282272724170" target="_blank" class="whatsapp"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
         </div>
-
-        <div class="row">
-          <div class="col-lg-4 text-center">
-            <img src="assets/img/profile-img.png" class="foto" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>FullStack Web Developer</h3>
-            <!-- <p class="">
-              I have skills in front-end programming using HTML, CSS, and JavaScript. I can assist in implementing attractive designs, building responsive web pages, and adding great interactivity to user interfaces.
-            </p> -->
-            <p>
-              I'm a passionate full-stack web developer dedicated to building engaging and useful web experiences. With basic knowledge in web development and a great desire to learn, I am ready to create innovative and relevant solutions.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>19 May 1999</span></li> -->
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+62822 7272 4170</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Medan, Indonesia</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>24</span></li> -->
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Junior</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>ndrewbagoes@gmail.com</span></li>
-                  
-                </ul>
-              </div>
-            </div>
-            <p>
-              Apart from that, I also have a basic understanding of back-end programming using languages like PHP. I seek to deepen my understanding of developing business logic, managing server requests, and interacting with databases.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Skills</h2>
-          <p>
-            I also have skills in testing web applications and finding and reporting bugs. I understand the importance of rigorous testing to ensure apps run well and provide a seamless user experience.
-          </p>
-        </div>
-
-        <div class="row mb-0">
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="progress">
-              <!-- <p class="skill">HTML</p> -->
-              <img src="assets/img/skills/html.svg" alt="" width="50px">
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="progress">
-              <!-- <p class="skill">CSS</p> -->
-              <img src="assets/img/skills/css.svg" alt="" width="50px">
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="progress">
-              <!-- <p class="skill">JavaScript</p> -->
-              <img src="assets/img/skills/JavaScript.svg" alt="" width="50px">
-            </div>
-          </div>
-        </div>
-
-        <div class="row mt-1">
-          <div class="col-lg-4 col-sm-6">
-            <div class="progress">
-              <!-- <p class="skill">Codeigniter</p> -->
-              <img src="assets/img/skills/codeigniter-logo-svgrepo-com.svg" alt="" width="60px">
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="progress">
-              <!-- <p class="skill">Laravel</p> -->
-              <img src="assets/img/skills/laravel.svg" alt="" width="55px">
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="progress">
-              <!-- <p class="skill">MySQL</p> -->
-              <img src="assets/img/skills/mysql-official.svg" alt="" width="70px">
-            </div>
-          </div>
-
-        </div>
-
       </div>
     </section>
+    <!-- End Hero -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>
-            Through this portfolio, I hope to showcase the latest projects I've worked on and my progress in the field of web development. I'm always interested to hear about opportunities to work together or new challenging projects
-          </p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Web Apps</li>
-              <li data-filter=".filter-certificate">Certificate</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/kedai (3).png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>E-Commerce</h4>
-                <p>Web Apps</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/kedai (1).png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web Apps E-Commerce"><i class="bx bx-plus"></i></a>
-                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
-                </div>
-              </div>
-            </div>
-          </div>
-
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Tentang Saya</h2>
           
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-certificate">
-            <div class="portfolio-wrap">
-              <img src="assets/img/certificate/full-stack.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Certificate 1</h4>
-                <p></p>
-                <div class="portfolio-links">
-                  <a href="assets/img/certificate/full-stack.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Certificate FullStack Developer"><i class="bx bx-plus"></i></a>
-                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
-                </div>
-              </div>
-            </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-certificate">
-            <div class="portfolio-wrap">
-              <img src="assets/img/certificate/PHP.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Certificate 2</h4>
-                <p></p>
-                <div class="portfolio-links">
-                  <a href="assets/img/certificate/PHP.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Certificate PHP Pemula"><i class="bx bx-plus"></i></a>
-                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
-                </div>
-              </div>
+          <div class="row">
+            <div class="col-lg-4 text-center">
+              <img src="assets/img/profile-img.png" class="foto" alt="" />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" style="text-align: ;">
+              <!-- <h3>FullStack Web Developer</h3> -->
+                <p>
+              Saya seorang senior web developer yang punya semangat besar untuk
+              bikin pengalaman web yang menarik dan bermanfaat. Dengan dasar
+              pengetahuan di dunia web development dan keinginan kuat untuk
+              terus belajar, saya siap menghadirkan solusi yang kreatif dan
+              relevan.
+            </p>
+              <p>
+                Saya punya kemampuan di front-end, seperti HTML, CSS, dan
+                JavaScript. Saya bisa membantu membuat tampilan desain jadi
+                lebih menarik, membangun halaman web yang responsif.
+              </p>
+              <p>
+                Sebagai full-stack web developer, saya bersemangat untuk terus
+                belajar dan membangun pengalaman web yang berguna. Dengan dasar
+                pengetahuan yang saya miliki, saya siap menciptakan solusi yang
+                inovatif dan sesuai kebutuhan.
+              </p>
+
+              <p>
+                Selain itu, saya juga memahami dasar-dasar back-end programming
+                dengan bahasa seperti PHP. Saat ini saya ingin memperdalam cara
+                mengembangkan logika bisnis, mengelola request ke server, dan
+                berinteraksi dengan database.
+              </p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/mobile (1).png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>E-Library</h4>
-                <p>Web Apps</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/mobile (1).png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web Apps E-Library"><i class="bx bx-plus"></i></a>
-                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-certificate">
-            <div class="portfolio-wrap">
-              <img src="assets/img/certificate/mic-api.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Certificate 2</h4>
-                <p></p>
-                <div class="portfolio-links">
-                  <a href="assets/img/certificate/mic-api.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Certificate Microservice API"><i class="bx bx-plus"></i></a>
-                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 portfolio-item filter-certificate">
-            <div class="portfolio-wrap">
-              <img src="assets/img/certificate/graphic-designer.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Certificate 2</h4>
-                <p></p>
-                <div class="portfolio-links">
-                  <a href="assets/img/certificate/graphic-designer.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Certificate Graphic Designer"><i class="bx bx-plus"></i></a>
-                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-       
-
         </div>
+      </section>
+      <!-- End About Section -->
 
-      </div>
-    </section><!-- End Portfolio Section -->
+      <!-- ======= Skills Section ======= -->
+      <section id="skills" class="skills section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Kemampuan</h2>
+            <p>
+              Saya juga punya pengalaman dalam mengetes aplikasi web serta
+              menemukan dan melaporkan bug. Saya paham pentingnya pengujian yang
+              teliti supaya aplikasi bisa berjalan lancar dan memberikan
+              pengalaman terbaik untuk pengguna.
+            </p>
+          </div>
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
+          <div class="row mb-0">
+            <div class="col-lg-4 col-sm-6">
+              <div class="progress">
+                <!-- <p class="skill">HTML</p> -->
+                <img src="assets/img/skills/html.svg" alt="" width="50px" />
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="progress">
+                <!-- <p class="skill">CSS</p> -->
+                <img src="assets/img/skills/css.svg" alt="" width="50px" />
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="progress">
+                <!-- <p class="skill">JavaScript</p> -->
+                <img
+                  src="assets/img/skills/JavaScript.svg"
+                  alt=""
+                  width="50px"
+                />
+              </div>
+            </div>
+          </div>
 
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>
-            Thank you for visiting my portfolio website. If you have any questions or would like to discuss further, please don't hesitate to contact me. I look forward to contributing to creating interesting and useful web solutions for you!"
-          </p>
+          <div class="row mt-1">
+            <div class="col-lg-4 col-sm-6">
+              <div class="progress">
+                <!-- <p class="skill">Codeigniter</p> -->
+                <img
+                  src="assets/img/skills/codeigniter-logo-svgrepo-com.svg"
+                  alt=""
+                  width="60px"
+                />
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="progress">
+                <!-- <p class="skill">Laravel</p> -->
+                <img src="assets/img/skills/laravel.svg" alt="" width="55px" />
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="progress">
+                <!-- <p class="skill">MySQL</p> -->
+                <img
+                  src="assets/img/skills/mysql-official.svg"
+                  alt=""
+                  width="70px"
+                />
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="row mt-1">
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Portfolio</h2>
+            <p>
+              Lewat portfolio ini, saya ingin menunjukkan project-project
+              terbaru yang pernah saya kerjakan sekaligus perkembangan saya di
+              bidang web development. Saya juga selalu terbuka untuk peluang
+              kerja sama atau tantangan project baru.
+            </p>
+          </div>
 
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Medan, Indonesia</p>
+          <div class="row">
+            <div
+              class="col-lg-12 d-flex justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">Web Apps</li>
+                <li data-filter=".filter-certificate">Certificate</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/kedai (3).png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>E-Commerce</h4>
+                  <p>Web Apps</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/kedai (1).png"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Web Apps E-Commerce"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                  </div>
+                </div>
               </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>ndrewbagoes@gmail.com</p>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-certificate">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/certificate/full-stack.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Certificate 1</h4>
+                  <p></p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/certificate/full-stack.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Certificate FullStack Developer"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                  </div>
+                </div>
               </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+62822 7272 4170</p>
-              </div>
-
             </div>
 
+            <div class="col-lg-4 col-md-6 portfolio-item filter-certificate">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/certificate/PHP.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Certificate 2</h4>
+                  <p></p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/certificate/PHP.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Certificate PHP Pemula"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/mobile (1).png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>E-Library</h4>
+                  <p>Web Apps</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/mobile (1).png"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Web Apps E-Library"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-certificate">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/certificate/mic-api.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Certificate 2</h4>
+                  <p></p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/certificate/mic-api.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Certificate Microservice API"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-certificate">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/certificate/graphic-designer.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Certificate 2</h4>
+                  <p></p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/certificate/graphic-designer.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Certificate Graphic Designer"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3985.809624089715!2d99.653076!3d2.5686149999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMsKwMzQnMDcuMCJOIDk5wrAzOScxMS4xIkU!5e0!3m2!1sid!2sid!4v1687426795992!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-
-          </div>
-
         </div>
+      </section>
+      <!-- End Portfolio Section -->
 
-      </div>
-    </section><!-- End Contact Section -->
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Kontak</h2>
+            <p>
+              Terima kasih sudah mampir ke website portfolio saya. Kalau ada
+              pertanyaan atau mau ngobrol lebih lanjut, jangan ragu untuk
+              menghubungi saya. Saya sangat menantikan kesempatan buat
+              berkontribusi dalam menciptakan solusi web yang menarik dan
+              bermanfaat untuk Anda!
+            </p>
+          </div>
 
-  </main><!-- End #main -->
+          <div class="row mt-1">
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>Medan, Indonesia</p>
+                </div>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <!-- <h3>Andrew Soebagoes</h3>
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>ndrewbagoes@gmail.com</p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+62822 7272 4170</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-8 mt-5 mt-lg-0">
+              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3985.809624089715!2d99.653076!3d2.5686149999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMsKwMzQnMDcuMCJOIDk5wrAzOScxMS4xIkU!5e0!3m2!1sid!2sid!4v1687426795992!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <!-- <h3>Andrew Soebagoes</h3>
       <p>Building Web Experiences with Passion and Perseverance</p> -->
-      <!-- <div class="social-links">
+        <!-- <div class="social-links">
         <a href="https://twitter.com/andrew_bagoes" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="https://www.facebook.com/ndrew.bagoes" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="https://www.instagram.com/andrewsoebagoes" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
@@ -362,33 +495,36 @@
         <a href="https://www.github.com/andrewsoebagoes" target="_blank" class="github"><i class="bx bxl-github"></i></a>
 
       </div> -->
-      <div class="copyright">
-        &copy; Copyright <strong><span>Andrew Soebagoes</span></strong>
+        <div class="copyright">
+          &copy; Copyright <strong><span>Andrew Soebagoes</span></strong>
+        </div>
+        <div class="credits">
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
       </div>
-      <div class="credits">
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer>
+    <!-- End Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
